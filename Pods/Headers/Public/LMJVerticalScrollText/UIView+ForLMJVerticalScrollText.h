@@ -1,0 +1,1 @@
+../../../LMJVerticalScrollText/LMJVerticalScrollText/UIView+ForLMJVerticalScrollText.h

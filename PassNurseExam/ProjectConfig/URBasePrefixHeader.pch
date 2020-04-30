@@ -1,0 +1,29 @@
+//
+//  URBasePrefixHeader.pch
+//  PassNurseExam
+//
+//  Created by qc on 2018/8/16.
+//  Copyright © 2018年 ucmed. All rights reserved.
+//
+
+#ifndef URBasePrefixHeader_pch
+#define URBasePrefixHeader_pch
+
+#import "CategoryHeader.h"
+
+#import "ExtensionHeader.h"
+
+#import "URColorHeader.h" // 项目颜色头文件
+
+#import "URFontHeader.h"
+
+#import "URHeaderFileHeader.h"
+
+#import "URBusinessFileHeader.h"
+
+#import "URURLHeader.h"
+
+#import "URPassNurseExamConfig.h"
+
+
+#endif /* URBasePrefixHeader_pch */

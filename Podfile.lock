@@ -1,0 +1,156 @@
+PODS:
+  - AESCrypt (0.0.1)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AlipaySDK-iOS (15.5.9)
+  - AliyunPlayer_iOS/AliyunPlayerSDK (3.4.9)
+  - DZNEmptyDataSet (1.8.1)
+  - FDFullscreenPopGesture (1.1)
+  - FSCalendar (2.8.0)
+  - IQKeyboardManager (5.0.8)
+  - JCore (2.1.4)
+  - JPush (3.2.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - LMJVerticalScrollText (3.0.1)
+  - Luban_iOS (1.0.6)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.17)
+  - NullSafe (1.2.3)
+  - pop (1.0.12)
+  - Popover.OC (2.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (5.2.3):
+    - SDWebImage/Core (= 5.2.3)
+  - SDWebImage/Core (5.2.3)
+  - SGQRCode (3.0.1)
+  - TYPagerController (2.1.2)
+  - UMCAnalytics (6.0.5):
+    - UMCCommon
+  - UMCCommon (2.1.1)
+  - WechatOpenSDK (1.8.6.2)
+  - YYModel (1.0.4)
+  - ZFPlayer/AVPlayer (3.2.13):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.2.13):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.2.13)
+
+DEPENDENCIES:
+  - AESCrypt (~> 0.0.1)
+  - AFNetworking (~> 3.2.1)
+  - AlipaySDK-iOS (~> 15.5.9)
+  - AliyunPlayer_iOS/AliyunPlayerSDK
+  - DZNEmptyDataSet (~> 1.8.1)
+  - FDFullscreenPopGesture (= 1.1)
+  - FSCalendar (~> 2.8.0)
+  - IQKeyboardManager (~> 5.0.7)
+  - JCore (= 2.1.4)
+  - JPush (~> 3.2.6)
+  - LMJVerticalScrollText (~> 3.0.1)
+  - Luban_iOS (~> 1.0.6)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.1.0)
+  - MJRefresh (~> 3.1.16)
+  - NullSafe (~> 1.2.2)
+  - pop (~> 1.0.10)
+  - Popover.OC (from `https://github.com/lifution/Popover.git`)
+  - ReactiveCocoa (~> 2.5)
+  - SDWebImage (~> 5.2.3)
+  - SGQRCode (~> 3.0.1)
+  - TYPagerController (~> 2.1.2)
+  - UMCAnalytics (~> 6.0.5)
+  - WechatOpenSDK (~> 1.8.6)
+  - YYModel (~> 1.0.4)
+  - ZFPlayer/AVPlayer (~> 3.2.13)
+  - ZFPlayer/ControlView (~> 3.2.13)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AESCrypt
+    - AFNetworking
+    - AlipaySDK-iOS
+    - AliyunPlayer_iOS
+    - DZNEmptyDataSet
+    - FDFullscreenPopGesture
+    - FSCalendar
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - LMJVerticalScrollText
+    - Luban_iOS
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - NullSafe
+    - pop
+    - ReactiveCocoa
+    - SDWebImage
+    - SGQRCode
+    - TYPagerController
+    - UMCAnalytics
+    - UMCCommon
+    - WechatOpenSDK
+    - YYModel
+    - ZFPlayer
+
+EXTERNAL SOURCES:
+  Popover.OC:
+    :git: https://github.com/lifution/Popover.git
+
+CHECKOUT OPTIONS:
+  Popover.OC:
+    :commit: 4ebceb8d62891539837b3d5f63f3f1e87755962a
+    :git: https://github.com/lifution/Popover.git
+
+SPEC CHECKSUMS:
+  AESCrypt: 1d89bf8b0789cf274ab2205ea461adbe9321d5f8
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
+  AliyunPlayer_iOS: 5704f564e0c041668138a604ebff31ecb13fe7d3
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
+  JCore: d345c049141877eb61c33011455fdb5fcab1673f
+  JPush: 41dd48a69bd8c08abc692dc7f2b23c0fb281471f
+  LMJVerticalScrollText: e9b166454288f9277901867339adb8a14e47e9bf
+  Luban_iOS: 585915b852276bd69b0c6a45eae265d85a1cb07f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
+  NullSafe: c5dde0d07fe0136a8194d6af9e285b0322b6c068
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Popover.OC: bfcce8307f77593e1e1d7cf58604077f74e114bc
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 46a7f73228f84ce80990c786e4372cf4db5875ce
+  SGQRCode: bf02d60e18d6660a9d75ff1c8b9b467f064f054e
+  TYPagerController: 262556ecef99986d26ed77fb1288a198ed42f4af
+  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  WechatOpenSDK: 8b3ba4239193d1112205c139c94e21934e8f369a
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZFPlayer: b2ba40c924e1b9a7f0a670632c4235ffbe6ee055
+
+PODFILE CHECKSUM: fb2ea36ebd822e951c18b571104c91a735ed0266
+
+COCOAPODS: 1.7.0.beta.2

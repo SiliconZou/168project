@@ -1,0 +1,1 @@
+../../../LMJVerticalScrollText/LMJVerticalScrollText/UILabel+ForLMJVerticalScrollText.h

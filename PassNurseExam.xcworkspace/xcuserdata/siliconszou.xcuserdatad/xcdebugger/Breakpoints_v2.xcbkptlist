@@ -1,0 +1,2071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1A7FB23A-38B6-4838-B6DA-2FE1790E3460"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB5D9047-B155-4944-8AA3-CAF8561A7B5E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/PersonalCenter(&#x4e2a;&#x4eba;&#x4e2d;&#x5fc3;)/Controller/&#x6211;&#x7684;&#x8bfe;&#x7a0b;/MineCourseViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB5D9047-B155-4944-8AA3-CAF8561A7B5E - 6d32258e59cd2244"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MineCourseViewController viewDidLoad]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/PersonalCenter(%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83)/Controller/%E6%88%91%E7%9A%84%E8%AF%BE%E7%A8%8B/MineCourseViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "594">
+               </Location>
+               <Location
+                  uuid = "EB5D9047-B155-4944-8AA3-CAF8561A7B5E - 50d67036c07787a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__39-[MineCourseViewController viewDidLoad]_block_invoke_2"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/PersonalCenter(%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83)/Controller/%E6%88%91%E7%9A%84%E8%AF%BE%E7%A8%8B/MineCourseViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0514DF41-9909-4FD0-A894-AA92E7DFB840"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/PersonalCenter(&#x4e2a;&#x4eba;&#x4e2d;&#x5fc3;)/Controller/&#x6211;&#x7684;&#x8bfe;&#x7a0b;/MineCourseViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "128070C1-D068-460C-A868-D48EE7707A18"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/PersonalCenter(&#x4e2a;&#x4eba;&#x4e2d;&#x5fc3;)/Controller/&#x6211;&#x7684;&#x8bfe;&#x7a0b;/MineCourseViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D452FD01-9937-49C6-9403-94D1E6817E73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/PersonalCenter(&#x4e2a;&#x4eba;&#x4e2d;&#x5fc3;)/Controller/&#x6211;&#x7684;&#x8bfe;&#x7a0b;/MineCourseViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1784F6B4-E8DF-415B-848D-24F6D275F9B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Course(&#x8bfe;&#x7a0b;)/Controller/CourseViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "-requestBannerAndMenu"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1784F6B4-E8DF-415B-848D-24F6D275F9B7 - f1fa36ec3959eaa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CourseViewController requestBannerAndMenu]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Course(%E8%AF%BE%E7%A8%8B)/Controller/CourseViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "1784F6B4-E8DF-415B-848D-24F6D275F9B7 - 6b8cd7aa0530623a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__44-[CourseViewController requestBannerAndMenu]_block_invoke"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Course(%E8%AF%BE%E7%A8%8B)/Controller/CourseViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A17ADCF-3D8F-49B8-8500-BFD4F017C611"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Course(&#x8bfe;&#x7a0b;)/Controller/CourseViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-requestBannerAndMenu"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5488C001-4899-4E87-B20B-BAEB5B24561F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Course(&#x8bfe;&#x7a0b;)/Controller/CourseViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-requestBannerAndMenu"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "843AD7EA-D753-4120-AF3B-F636C81BBD20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/PersonalCenter(&#x4e2a;&#x4eba;&#x4e2d;&#x5fc3;)/Controller/&#x6211;&#x7684;&#x76f4;&#x64ad;/MyLivingVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-requestBannerAndMenu"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "843AD7EA-D753-4120-AF3B-F636C81BBD20 - 782d2a0630d31bc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MyLivingVC requestBannerAndMenu]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/PersonalCenter(%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83)/Controller/%E6%88%91%E7%9A%84%E7%9B%B4%E6%92%AD/MyLivingVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "843AD7EA-D753-4120-AF3B-F636C81BBD20 - b3bd841658f5cc87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[MyLivingVC requestBannerAndMenu]_block_invoke"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/PersonalCenter(%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83)/Controller/%E6%88%91%E7%9A%84%E7%9B%B4%E6%92%AD/MyLivingVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C6987E1-87BB-4C1A-9AA3-359419417CF9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EA6A41E-0C80-488A-BA8C-7AF5F40BD980"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9EDA5FA-5044-45DE-8A5E-A6CF5CEE4965"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E784ECC4-7984-4B3A-94C4-0FCD42316D02"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E784ECC4-7984-4B3A-94C4-0FCD42316D02 - dc1159d219fe4e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "7245">
+               </Location>
+               <Location
+                  uuid = "E784ECC4-7984-4B3A-94C4-0FCD42316D02 - fe85aa0ee60b95e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__67-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]_block_invoke_3.264"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D6AD7AD-038F-42B7-93D6-94B0A2131C43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC2BF9DA-BCF5-44F0-9813-15A633995DDD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DA54CA0-14EF-469B-BA20-B3D51CAE0A4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URSharedWidget/URSharedView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
+            landmarkName = "-shareMiniProgramWithDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5DAF71A-056F-4D66-AA3E-77F08C7FD900"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URSharedWidget/URSharedView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "-shareMiniProgramWithDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "936F95DE-7369-4538-BB27-AB4FCE508D07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URSharedWidget/URSharedView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
+            landmarkName = "-shareMiniProgramWithDict:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "936F95DE-7369-4538-BB27-AB4FCE508D07 - a2bc79d91e766a1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[URSharedView shareMiniProgramWithDict:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URSharedWidget/URSharedView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "1452">
+               </Location>
+               <Location
+                  uuid = "936F95DE-7369-4538-BB27-AB4FCE508D07 - b090ace617d76ba4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__41-[URSharedView shareMiniProgramWithDict:]_block_invoke"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URSharedWidget/URSharedView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "288"
+                  endingLineNumber = "288"
+                  offsetFromSymbolStart = "78">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EC53A60-A362-48E1-8BC8-0BFDD219EE13"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URSharedWidget/URSharedView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "289"
+            endingLineNumber = "289"
+            landmarkName = "-shareMiniProgramWithDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EEAAF06-074D-4BC4-9C03-8369271A5ED0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/HomePage(&#x9996;&#x9875;)/Controller/&#x65b0;&#x95fb;/HomePageNewsInforViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9EEAAF06-074D-4BC4-9C03-8369271A5ED0 - e548ff9621934761"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HomePageNewsInforViewController viewDidLoad]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/HomePage(%E9%A6%96%E9%A1%B5)/Controller/%E6%96%B0%E9%97%BB/HomePageNewsInforViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "2357">
+               </Location>
+               <Location
+                  uuid = "9EEAAF06-074D-4BC4-9C03-8369271A5ED0 - d89dbcd162c22646"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__46-[HomePageNewsInforViewController viewDidLoad]_block_invoke.135"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/HomePage(%E9%A6%96%E9%A1%B5)/Controller/%E6%96%B0%E9%97%BB/HomePageNewsInforViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84E181A4-B6F6-4909-A9BD-C7D903F4AE3C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/HomePage(&#x9996;&#x9875;)/Controller/&#x65b0;&#x95fb;/HomePageNewsInforViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0409D09-EC0D-451D-996E-73F4E0AA84AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/HomePage(&#x9996;&#x9875;)/Controller/&#x65b0;&#x95fb;/HomePageNewsInforViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C88AFBE-3FEB-4860-8B9E-A2B56505181B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-navRightPressed:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BB13238-1D37-44CC-888A-0AC4DC93DFD0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "-navRightPressed:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63F1F02C-092C-4D0E-ADFF-F024C4D673B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-navRightPressed:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "63F1F02C-092C-4D0E-ADFF-F024C4D673B6 - b02b8d9b2901fe8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[URWKWebViewController navRightPressed:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "234">
+               </Location>
+               <Location
+                  uuid = "63F1F02C-092C-4D0E-ADFF-F024C4D673B6 - cc1fb79ef910591b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__41-[URWKWebViewController navRightPressed:]_block_invoke"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "69">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2DC7DCF-A71F-4B5C-9D77-DCE35A186176"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/PersonalCenter(&#x4e2a;&#x4eba;&#x4e2d;&#x5fc3;)/Controller/&#x8003;&#x9898;&#x6536;&#x85cf;/UserCollectionViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "-getListData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5319694B-1C4C-4C72-97ED-D395002575B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/PersonalCenter(&#x4e2a;&#x4eba;&#x4e2d;&#x5fc3;)/Controller/&#x8003;&#x9898;&#x6536;&#x85cf;/UserCollectionViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "-getListData"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5319694B-1C4C-4C72-97ED-D395002575B4 - ab5c19ee2c7fd216"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserCollectionViewController getListData]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/PersonalCenter(%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83)/Controller/%E8%80%83%E9%A2%98%E6%94%B6%E8%97%8F/UserCollectionViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "5319694B-1C4C-4C72-97ED-D395002575B4 - 5966c5a9bd5fd09d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__43-[UserCollectionViewController getListData]_block_invoke"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/PersonalCenter(%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83)/Controller/%E8%80%83%E9%A2%98%E6%94%B6%E8%97%8F/UserCollectionViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49605CEE-70F3-4AA9-B406-ECE5452E54DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingDetailViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "388"
+            endingLineNumber = "388"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62A19835-7972-404E-AFC3-A4DF399CD458"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingDetailViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "376"
+            endingLineNumber = "376"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF22C95D-3B8B-40DB-BA1C-4A19E525002D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/&#x76f4;&#x64ad;&#x8be6;&#x60c5;/LiveCourseRecommendViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "945"
+            endingLineNumber = "945"
+            landmarkName = "-receiveUserMessage:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FF22C95D-3B8B-40DB-BA1C-4A19E525002D - 98352fe793065ee9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LiveCourseRecommendViewController receiveUserMessage:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Living(%E7%9B%B4%E6%92%AD)/Controller/%E7%9B%B4%E6%92%AD%E8%AF%A6%E6%83%85/LiveCourseRecommendViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "945"
+                  endingLineNumber = "945"
+                  offsetFromSymbolStart = "1353">
+               </Location>
+               <Location
+                  uuid = "FF22C95D-3B8B-40DB-BA1C-4A19E525002D - 98352fe793065ee9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LiveCourseRecommendViewController receiveUserMessage:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Living(%E7%9B%B4%E6%92%AD)/Controller/%E7%9B%B4%E6%92%AD%E8%AF%A6%E6%83%85/LiveCourseRecommendViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "945"
+                  endingLineNumber = "945"
+                  offsetFromSymbolStart = "1365">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8ADD22F-30BC-4CAB-A9AC-B66A5206F4C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/&#x76f4;&#x64ad;&#x8be6;&#x60c5;/LiveCourseRecommendViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "947"
+            endingLineNumber = "947"
+            landmarkName = "-receiveUserMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAA5B275-0BE4-48A2-86C9-92FB22CD521F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/View/&#x76f4;&#x64ad;&#x8be6;&#x60c5;/cell/LiveSectionCatalogCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-setModel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAC1869C-DF3B-4865-B306-22367243B426"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/View/&#x76f4;&#x64ad;&#x8be6;&#x60c5;/cell/LiveSectionCatalogCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "-setModel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AB22F67-AECE-4DDE-A572-DB9AB3F6C22C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/View/&#x76f4;&#x64ad;&#x8be6;&#x60c5;/cell/LiveSectionCatalogCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-setModel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "100AD22A-5949-435D-A692-3E5ED5235219"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/View/&#x76f4;&#x64ad;&#x8be6;&#x60c5;/cell/LiveSectionCatalogCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-setModel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAC2F423-EA33-44D8-8D95-E79C6914E601"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Course(&#x8bfe;&#x7a0b;)/View/CourseHome/CourseHomeMenuView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EAE7B74-51F1-4E81-ACFE-83DA293856A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Course(&#x8bfe;&#x7a0b;)/View/CourseHome/CourseHomeMenuView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FFF69F0-12A9-4FCB-9AAA-BCADDB143E86"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Course(&#x8bfe;&#x7a0b;)/View/CourseHome/CourseHomeMenuView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53FCB990-BBB0-4F2E-87F1-1AF694DA24E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Course(&#x8bfe;&#x7a0b;)/View/CourseHome/CourseHomeMenuView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AB2E5B4-F056-4B33-B333-0C363FBDD231"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Course(&#x8bfe;&#x7a0b;)/View/CourseHome/CourseHomeMenuView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5AB2E5B4-F056-4B33-B333-0C363FBDD231 - fc1d6924f540493e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CourseHomeMenuView collectionView:didSelectItemAtIndexPath:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Course(%E8%AF%BE%E7%A8%8B)/View/CourseHome/CourseHomeMenuView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "2438">
+               </Location>
+               <Location
+                  uuid = "5AB2E5B4-F056-4B33-B333-0C363FBDD231 - fc1d6924f540493e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CourseHomeMenuView collectionView:didSelectItemAtIndexPath:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Course(%E8%AF%BE%E7%A8%8B)/View/CourseHome/CourseHomeMenuView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "2466">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "386B51FE-E537-434B-9FB2-844C4EF23893"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/&#x5145;&#x503c;&#x8d2d;&#x4e70;/BuyCourseVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "570"
+            endingLineNumber = "570"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52D48340-33A6-4790-A00B-2F6266F154E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4775930B-6CF3-4479-AAE7-5F236798BC31"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1993B89-FB07-4789-8E81-EAD2366FC6F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1993B89-FB07-4789-8E81-EAD2366FC6F4 - dc1159d219fe4e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "3218">
+               </Location>
+               <Location
+                  uuid = "E1993B89-FB07-4789-8E81-EAD2366FC6F4 - dc1159d219fe4e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "3278">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68F4CD22-8ED4-423D-8050-B5923303DC44"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "68F4CD22-8ED4-423D-8050-B5923303DC44 - fe85aa0ee60b95e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__67-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]_block_invoke_3.264"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "362">
+               </Location>
+               <Location
+                  uuid = "68F4CD22-8ED4-423D-8050-B5923303DC44 - fe85aa0ee60b95e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__67-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]_block_invoke_3.264"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "411">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "231D8B3A-DE12-4A81-8D74-0745694A0C42"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E60BD3D2-C0BC-4AD2-B4D4-81D39A38016E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Utils/BaseMoudle/URBasicViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "-alertUserVipRight"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C91DC67-15D5-449B-B2DB-1A507560DC25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C91DC67-15D5-449B-B2DB-1A507560DC25 - dc1159d219fe4e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "6308">
+               </Location>
+               <Location
+                  uuid = "9C91DC67-15D5-449B-B2DB-1A507560DC25 - dc1159d219fe4e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "6323">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90B78E9B-85B7-484F-B926-F3D84BF2D256"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "90B78E9B-85B7-484F-B926-F3D84BF2D256 - dc1159d219fe4e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "210"
+                  endingLineNumber = "210"
+                  offsetFromSymbolStart = "6625">
+               </Location>
+               <Location
+                  uuid = "90B78E9B-85B7-484F-B926-F3D84BF2D256 - dc1159d219fe4e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "210"
+                  endingLineNumber = "210"
+                  offsetFromSymbolStart = "6640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CD67F90-CFC8-49D7-8D05-F79E054210CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CD67F90-CFC8-49D7-8D05-F79E054210CB - 55ed6babe694f74b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__67-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]_block_invoke.190"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "362">
+               </Location>
+               <Location
+                  uuid = "3CD67F90-CFC8-49D7-8D05-F79E054210CB - 55ed6babe694f74b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__67-[WKWebViewJSBridge userContentController:didReceiveScriptMessage:]_block_invoke.190"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "411">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FA8351A-638B-42C6-A4FB-CDC59D4C308D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E561DFA8-185A-4085-846D-A37123FDEE1F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E561DFA8-185A-4085-846D-A37123FDEE1F - f578c7993c4e3adc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TrainingViewController viewDidLoad]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/QuestionBank(%E9%A2%98%E5%BA%93)/Controller/%E8%80%83%E5%89%8D%E5%AF%86%E9%A2%98&amp;%E8%80%83%E5%89%8D%E6%A8%A1%E6%8B%9F&amp;%E7%9C%9F%E9%A2%98%E8%AE%AD%E7%BB%83/TrainingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "5378">
+               </Location>
+               <Location
+                  uuid = "E561DFA8-185A-4085-846D-A37123FDEE1F - 3429c0c5fe2b242c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[TrainingViewController viewDidLoad]_block_invoke_2.166"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/QuestionBank(%E9%A2%98%E5%BA%93)/Controller/%E8%80%83%E5%89%8D%E5%AF%86%E9%A2%98&amp;%E8%80%83%E5%89%8D%E6%A8%A1%E6%8B%9F&amp;%E7%9C%9F%E9%A2%98%E8%AE%AD%E7%BB%83/TrainingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04489AE9-6C49-458D-B586-790971582977"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE1A10B3-0E3D-47B9-B915-E0F770A8579F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEACB699-6BDE-4F7B-8D16-D073C8A17578"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11EB460D-6D23-424E-A0A6-B8B3969FF968"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D17A0FB-C972-4F6E-91F5-B77CB4BBA93B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FCE3CDC-6BC3-445D-B54F-BB82FE9D0CD5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6561267D-E6F5-49F4-BCA7-839D585389AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3F6C44A-A5F2-42F5-98D4-601F8FEEAF3C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "431ABFF6-A0CE-415A-B183-28AA6432A76B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "-isNotVip"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "431ABFF6-A0CE-415A-B183-28AA6432A76B - c90d5306244b189b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TrainingViewController isNotVip]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/QuestionBank(%E9%A2%98%E5%BA%93)/Controller/%E8%80%83%E5%89%8D%E5%AF%86%E9%A2%98&amp;%E8%80%83%E5%89%8D%E6%A8%A1%E6%8B%9F&amp;%E7%9C%9F%E9%A2%98%E8%AE%AD%E7%BB%83/TrainingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "431ABFF6-A0CE-415A-B183-28AA6432A76B - 7ea3f2eef80b39a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[TrainingViewController isNotVip]_block_invoke"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/QuestionBank(%E9%A2%98%E5%BA%93)/Controller/%E8%80%83%E5%89%8D%E5%AF%86%E9%A2%98&amp;%E8%80%83%E5%89%8D%E6%A8%A1%E6%8B%9F&amp;%E7%9C%9F%E9%A2%98%E8%AE%AD%E7%BB%83/TrainingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA71BB5B-81B2-423C-9294-1BCFD2BD81F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "-isNotVip"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14593648-5F78-489B-8C60-5A3CB78B0B54"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "-isNotVip"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "14593648-5F78-489B-8C60-5A3CB78B0B54 - 7ea3f2eef80b39a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[TrainingViewController isNotVip]_block_invoke"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/QuestionBank(%E9%A2%98%E5%BA%93)/Controller/%E8%80%83%E5%89%8D%E5%AF%86%E9%A2%98&amp;%E8%80%83%E5%89%8D%E6%A8%A1%E6%8B%9F&amp;%E7%9C%9F%E9%A2%98%E8%AE%AD%E7%BB%83/TrainingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "14593648-5F78-489B-8C60-5A3CB78B0B54 - 1f2393c949f8531"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[TrainingViewController isNotVip]_block_invoke_2"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/QuestionBank(%E9%A2%98%E5%BA%93)/Controller/%E8%80%83%E5%89%8D%E5%AF%86%E9%A2%98&amp;%E8%80%83%E5%89%8D%E6%A8%A1%E6%8B%9F&amp;%E7%9C%9F%E9%A2%98%E8%AE%AD%E7%BB%83/TrainingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "490967DE-7F40-4E59-A610-2F954022D309"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/QuestionBank(&#x9898;&#x5e93;)/Controller/&#x8003;&#x524d;&#x5bc6;&#x9898;&amp;&#x8003;&#x524d;&#x6a21;&#x62df;&amp;&#x771f;&#x9898;&#x8bad;&#x7ec3;/TrainingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "-isNotVip"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CB89F51-B02E-415C-B9F6-A4A51290A87D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/AppDelegate/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "-application:didReceiveRemoteNotification:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "265C03F8-9C2F-4817-B533-69597D9B1DB6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/AppDelegate/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "-jpushNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A886E40-0C22-4076-A8B1-F568EBBEB6E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/AppDelegate/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
+            landmarkName = "-jpushNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A886E40-0C22-4076-A8B1-F568EBBEB6E1 - 2e9f53c9830c80ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate jpushNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/AppDelegate/AppDelegate.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "286"
+                  endingLineNumber = "286"
+                  offsetFromSymbolStart = "1002">
+               </Location>
+               <Location
+                  uuid = "0A886E40-0C22-4076-A8B1-F568EBBEB6E1 - 2e9f53c9830c80ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate jpushNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/AppDelegate/AppDelegate.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "286"
+                  endingLineNumber = "286"
+                  offsetFromSymbolStart = "3782">
+               </Location>
+               <Location
+                  uuid = "0A886E40-0C22-4076-A8B1-F568EBBEB6E1 - 2e9f53c9830c80ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate jpushNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/AppDelegate/AppDelegate.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "286"
+                  endingLineNumber = "286"
+                  offsetFromSymbolStart = "3812">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "887C972A-2436-4237-8D46-3BED2C717518"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/AppDelegate/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "-jpushNotificationCenter:willPresentNotification:withCompletionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "777D80E7-A265-44BF-A2A3-F7D180BB887B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/AppDelegate/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "-jpushNotificationCenter:willPresentNotification:withCompletionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "227A191A-D89A-4FCC-88EC-54CF7184D1A6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/AppDelegate/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "-jpushNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7166BC34-8915-444D-AACC-D84C85617EA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "-requestURLWithURI:linkUrl:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA486E8F-8B2D-4062-AD60-64C33FEA64A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "-requestURLWithURI:linkUrl:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "069F4925-A131-4F29-BEAC-F7D0F98B07BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "069F4925-A131-4F29-BEAC-F7D0F98B07BF - a3e72ff1f2580ee9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[URWKWebViewController observeValueForKeyPath:ofObject:change:context:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "1708">
+               </Location>
+               <Location
+                  uuid = "069F4925-A131-4F29-BEAC-F7D0F98B07BF - a3e72ff1f2580ee9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[URWKWebViewController observeValueForKeyPath:ofObject:change:context:]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "1713">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70510292-56D7-4024-AF27-CDDA7300A322"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F5499AA-47D4-4297-80C7-520792C340A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/URWKWebViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9026D86E-2ECA-48DF-8403-E16D117B9690"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Vendors/URWKWebviewController/WKWebViewJSBridge.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32402DBB-CAFC-471E-AC2C-60A7F43FD391"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/LivingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "283"
+            endingLineNumber = "283"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B8BE991-F510-4714-9E13-F3AF80842DDF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/LivingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A628708-2A8E-4EE9-BA7F-F1D42C117DB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/LivingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1388BE0F-743E-450A-AAFB-B0FCAB8C8414"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/LivingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88B0A25A-2E7F-49DD-AF86-8D4F66524CA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/LivingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "306"
+            endingLineNumber = "306"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76D775FE-88BF-4A57-8080-5A4C36D11B27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/LivingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92D3759F-9FBE-41A0-B497-FCAB4D9AF1F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/LivingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA03C835-3FDD-4943-A2D7-C9F9C55BA768"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/&#x76f4;&#x64ad;&#x8be6;&#x60c5;/LiveCourseRecommendViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1151"
+            endingLineNumber = "1151"
+            landmarkName = "-getLiveSectionDetailData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0D1DD0A-B197-44AE-B49D-963449CD68D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/&#x76f4;&#x64ad;&#x8be6;&#x60c5;/LiveCourseRecommendViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1071"
+            endingLineNumber = "1071"
+            landmarkName = "-getLiveSectionDetailData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3468225-B68E-4A59-8BFB-684785F6901C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/&#x76f4;&#x64ad;&#x8be6;&#x60c5;/LiveCourseRecommendViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1063"
+            endingLineNumber = "1063"
+            landmarkName = "-getLiveSectionDetailData"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B3468225-B68E-4A59-8BFB-684785F6901C - c9627ba0a9970eff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LiveCourseRecommendViewController getLiveSectionDetailData]"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Living(%E7%9B%B4%E6%92%AD)/Controller/%E7%9B%B4%E6%92%AD%E8%AF%A6%E6%83%85/LiveCourseRecommendViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1063"
+                  endingLineNumber = "1063"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "B3468225-B68E-4A59-8BFB-684785F6901C - 84f3e09b4b91e768"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__61-[LiveCourseRecommendViewController getLiveSectionDetailData]_block_invoke"
+                  moduleName = "168&#x7f51;&#x6821;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/siliconszou/Downloads/168network/PassNurseExam/Living(%E7%9B%B4%E6%92%AD)/Controller/%E7%9B%B4%E6%92%AD%E8%AF%A6%E6%83%85/LiveCourseRecommendViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1063"
+                  endingLineNumber = "1063"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B62254B-D9E4-4EF3-987D-3616CF175300"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PassNurseExam/Living(&#x76f4;&#x64ad;)/Controller/&#x76f4;&#x64ad;&#x8be6;&#x60c5;/LiveCourseRecommendViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1064"
+            endingLineNumber = "1064"
+            landmarkName = "-getLiveSectionDetailData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
