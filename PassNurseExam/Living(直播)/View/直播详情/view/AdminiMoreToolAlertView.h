@@ -14,7 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong) UIButton *bannedBtn;//禁言按钮
 @property (nonatomic,strong) UIButton *cutoverLineBtn;//全屏按钮
-
+@property (nonatomic,strong) UIButton *delayBtn; //延时按钮
+@property (nonatomic,strong) UIButton *nowOverBtn; //立即下课
+@property (nonatomic,strong) UIButton *upSignBtn; //上课签到
+@property (nonatomic,strong) UIButton *upClockinBtn; //上课打卡
+@property (nonatomic,strong) UIButton *downSignBtn; //下课签到
 - (void)showWithBanned:(BOOL)banned cutoverLine:(BOOL)cutoverLine commit:(void(^)(NSString * tag))commit cancel:(void(^)(void))cancel;
 
 @end
