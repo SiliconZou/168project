@@ -457,4 +457,12 @@
     }] ;
 }
 
+-(URCommonURLSessionTask *)clickStatisticsWithToken:(NSString *)token type_id:(NSString *)type_id requestSuccessBlock:(URCommonResponseSuccessBlock)successBlock requestFailureBlock:(URCommonResponseFailureBlock)failureBlock {
+    return [self netRequestPOSTWithAPI:ClickStatistics parameter:@{@"api_token":token,@"type_id":type_id} resultModelClass:[URCommonObject class] requestSuccessBlock:^(id response, NSDictionary *responseDict) {
+        successBlock(response,responseDict);
+    } requestFailureBlock:^(NSError *error, id response) {
+        failureBlock(error,response);
+    }];
+}
+
 @end

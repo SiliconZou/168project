@@ -132,7 +132,7 @@
     
     [[self.examButton  rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
         
-        if ([NSString  isBlank:self.subjectsStr] || [NSString isBlank:self.yearStr])
+        if ([NSString  isBlank:self.subjectsStr] ) //|| [NSString isBlank:self.yearStr
         {
             [URToastHelper  showErrorWithStatus:@"请选择科目或试卷年份"] ;
         } else

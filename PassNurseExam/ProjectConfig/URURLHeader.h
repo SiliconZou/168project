@@ -213,6 +213,8 @@ typedef NS_ENUM(NSInteger, RequestReturnCode) {
 // 精品课程---课程浏览统计
 #define CourseBrowseStatistics @"/api/clickStatistics.api"
 
+// 精品课程---考勤签到
+#define ClickStatistics @"/api/clickStatistics.api"
 
 #pragma mark -- 直播
 

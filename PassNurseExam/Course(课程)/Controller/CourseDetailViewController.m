@@ -21,7 +21,7 @@
 #import "CourseTeacherViewController.h"
 #import "CourseDownloadViewController.h"
 
-
+#define countTime 10*60
 static NSString * const CourseDetailTopInfoCellIdentifier = @"CourseDetailTopInfoCellIdentifier";
 static NSString * const CourseDetailTeacherCellIdentifier = @"CourseDetailTeacherCellIdentifier";
 static NSString * const CourseDetailMenuCellIdentifier = @"CourseDetailMenuCellIdentifier";
@@ -45,6 +45,13 @@ static NSString * const CourseDetailProblemSolvingCellIdentifier = @"CourseDetai
 @property (nonatomic, strong) UIButton *playBtn;
 @property (nonatomic, strong) NSArray <NSURL *>*assetURLs;
 @property (nonatomic, copy) NSURL * currentPlayURL;//当前播放的url
+
+@property (nonatomic, copy) NSString *typeIdStr;
+@property (nonatomic, strong) NSTimer *popTimer; //弹出签到按钮计时器
+@property (nonatomic, strong) UIButton *signBtn;
+@property (nonatomic, assign) BOOL isfullScreen;
+@property (nonatomic, copy) NSString * currentPlayURLStr;//当前播放的url
+@property (nonatomic, copy) NSString * currentName;//当前播放课程的名字
 
 @end
 
@@ -124,12 +131,26 @@ static NSString * const CourseDetailProblemSolvingCellIdentifier = @"CourseDetai
     /// 播放器相关
     self.player = [ZFPlayerController playerWithPlayerManager:playerManager containerView:self.containerView];
     self.player.controlView = self.controlView;
+    self.signBtn = [UIButton ImgBtnWithImageName:@"考勤1"];
+    [self.controlView addSubview:self.signBtn];
+    [self.signBtn setHidden:YES];
+    [self.signBtn addTarget:self action:@selector(checkOnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.signBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(self.controlView);
+//        make.right.equalTo(self.controlView).offset(-20);
+        make.centerX.equalTo(self.controlView);
+        make.size.mas_equalTo(CGSizeMake(60, 60));
+    }];
     /// 设置退到后台继续播放
     self.player.pauseWhenAppResignActive = NO;
     
     @weakify(self)
     self.player.orientationWillChange = ^(ZFPlayerController * _Nonnull player, BOOL isFullScreen) {
         @strongify(self)
+        self_weak_.isfullScreen = isFullScreen;
+        if (!isFullScreen) {
+            [self_weak_.signBtn setHidden:YES];
+        }
         [self setNeedsStatusBarAppearanceUpdate];
     };
     
@@ -163,6 +184,21 @@ static NSString * const CourseDetailProblemSolvingCellIdentifier = @"CourseDetai
     self.curriculumIndex = -1;
 }
 
+-(void)navRightPressed:(id)sender {
+    URSharedView * sharedView= [[URSharedView  alloc] init];
+    NSString *sharePath = [NSString stringWithFormat:@"pages/sharePage1/sharePage1?url=%@&title=%@",self.currentPlayURLStr?:@"",self.currentName?:@""];
+    NSDictionary *shareInfo = @{@"title":self.currentName?:@"",@"descr":@"",@"shareUrl":@"https://www.baidu.com",@"path":sharePath,@"userName":@"gh_e9ff3903a4a4",@"imgName":[self getImgName]};
+    [sharedView shareMiniProgramWithDict:shareInfo];
+}
+- (NSString *)getImgName {
+    if ([self.courseID isEqualToString:@"4"]) {
+        return @"课程-护士资格";
+    } else if ([self.courseID isEqualToString:@"2"]) {
+        return @"课程-初级护师";
+    } else {
+        return @"课程-健康管理师";
+    }
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     if (self.currentShowItem == 0) {
@@ -190,7 +226,7 @@ static NSString * const CourseDetailProblemSolvingCellIdentifier = @"CourseDetai
     {
         CourseDetailTopInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:CourseDetailTopInfoCellIdentifier];
         [cell.downloadBtn addTarget:self action:@selector(downloadButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-        
+        [cell.collectBtn addTarget:self action:@selector(checkOnClick) forControlEvents:UIControlEventTouchUpInside];
         if (self.currentChapterIndex == -1)//显示默认信息
         {
             cell.model = self.detailModel.data1;
@@ -403,12 +439,41 @@ static NSString * const CourseDetailProblemSolvingCellIdentifier = @"CourseDetai
     }
 }
 
+-(void)popOverClickBtn {
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+    CourseDetailTopInfoCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    cell.collectBtn.hidden = NO;
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"opacity"];
+    animation.fromValue = @1.0;
+    animation.toValue = @0;
+    animation.duration = 5;
+    [cell.collectBtn.layer addAnimation:animation forKey:nil];
+    if (self.isfullScreen) {
+        self.signBtn.hidden = NO;
+        [self.signBtn.layer addAnimation:animation forKey:nil];
+    }
+}
+
 - (void)playVideo:(NSIndexPath *)indexPath
 {
     self.playBtn.hidden = NO ;
+    if (self.curriculumIndex == -1) {
+        self.popTimer = [NSTimer scheduledTimerWithTimeInterval:10*60 target:self selector:@selector(popOverClickBtn) userInfo:nil repeats:YES];
+    }
+    
+    if (self.curriculumIndex != indexPath.row) {
+        [self.popTimer invalidate];
+        self.popTimer = nil;
+        NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+        CourseDetailTopInfoCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+        self.popTimer = [NSTimer scheduledTimerWithTimeInterval: countTime target:self selector:@selector(popOverClickBtn) userInfo:nil repeats:YES];
+        cell.collectBtn.hidden = YES;
+    }
     
     CourseCommonDetailDataCurriculumsModel *curriculumsModel = self.detailModel.data[indexPath.section-3].curriculums[indexPath.row];
-
+    self.typeIdStr = curriculumsModel.idStr;
+    self.currentName = curriculumsModel.name;
+    self.currentPlayURLStr = curriculumsModel.play_address;
     
     [[URCommonApiManager   sharedInstance] sendCourseClickStatisticsRquestWithToken:[URUserDefaults  standardUserDefaults].userInforModel.api_token?:@"" type:@"curriculum" type_id:curriculumsModel.idStr?:@"" time_stamp:appStartUpTime requestSuccessBlock:^(id response, NSDictionary *responseDict) {
         
@@ -475,6 +540,19 @@ static NSString * const CourseDetailProblemSolvingCellIdentifier = @"CourseDetai
         });
     };
     [self.navigationController pushViewController:downloadViewController animated:YES];
+}
+
+-(void)checkOnClick{
+    
+    [[URCommonApiManager sharedInstance] clickStatisticsWithToken:[URUserDefaults  standardUserDefaults].userInforModel.api_token?:@"" type_id:self.typeIdStr ? : @"" requestSuccessBlock:^(id response, NSDictionary *responseDict) {
+        [URToastHelper showErrorWithStatus:@"操作成功"];
+        NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+        CourseDetailTopInfoCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+        cell.collectBtn.hidden = YES;
+        self.signBtn.hidden = YES;
+    } requestFailureBlock:^(NSError *error, id response) {
+        
+    }];
 }
 
 - (UITableView *)tableView

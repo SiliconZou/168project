@@ -327,6 +327,18 @@ NS_ASSUME_NONNULL_BEGIN
 -(URCommonURLSessionTask *)getCustomerServiceNewWithrequestSuccessBlock:(URCommonResponseSuccessBlock)successBlock
 requestFailureBlock:(URCommonResponseFailureBlock)failureBlock ;
 
+/// 获取用户全部课程及状态
+/// @param type_id 当前播放课件Id
+/// @param successBlock 请求成功返回
+/// @param failureBlock 请求失败返回
+-(URCommonURLSessionTask *)clickStatisticsWithToken:(NSString *)token
+                                            type_id:(NSString *)type_id
+                                requestSuccessBlock:(URCommonResponseSuccessBlock)successBlock
+                                requestFailureBlock:(URCommonResponseFailureBlock)failureBlock ;
+
+-(URCommonURLSessionTask *)getCustomerServiceNewWithrequestSuccessBlock:(URCommonResponseSuccessBlock)successBlock
+                                                    requestFailureBlock:(URCommonResponseFailureBlock)failureBlock ;
+
 @end
 
 NS_ASSUME_NONNULL_END

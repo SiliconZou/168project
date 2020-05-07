@@ -67,6 +67,8 @@ static NSString * const ImgVideoQuestionBankAnalysisTableViewCellIdentifier = @"
 -(void)navLeftPressed {
     if (self.isPush) {
         [self dismissViewControllerAnimated:YES completion:nil];
+    } else {
+        [self.navigationController popViewControllerAnimated:YES];
     }
 }
 
@@ -264,13 +266,13 @@ static NSString * const ImgVideoQuestionBankAnalysisTableViewCellIdentifier = @"
         {
             NSString *answerStr = @"参考答案：";
             
-            for (int i = 0; i < self.dataModel.answer.length; i++)
-            {
-                //答案是从 1/2/3/4/5/6 开始编号，对应 A/B/C/D/E/F
-                NSInteger index = [[self.dataModel.answer substringWithRange:NSMakeRange(i, 1)] integerValue]-1;
-                answerStr = [answerStr stringByAppendingString:self.noTitles[index]];
-            }
-            cell.titleLb.text = answerStr;
+//            for (int i = 0; i < self.dataModel.answer.length; i++)
+//            {
+//                //答案是从 1/2/3/4/5/6 开始编号，对应 A/B/C/D/E/F
+//                NSInteger index = [[self.dataModel.answer substringWithRange:NSMakeRange(i, 1)] integerValue]-1;
+//                answerStr = [answerStr stringByAppendingString:self.noTitles[index]];
+//            }
+            cell.titleLb.text = [answerStr stringByAppendingString:self.dataModel.answer];
         }
         cell.contentLb.text = self.dataModel.analysis ?: @"";
         cell.starsView.value = [self.dataModel.difficulty floatValue];

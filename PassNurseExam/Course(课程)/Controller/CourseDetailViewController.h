@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy) NSString *  stageID;
 
+@property (nonatomic,copy) NSString * courseID;
 @end
 
 NS_ASSUME_NONNULL_END

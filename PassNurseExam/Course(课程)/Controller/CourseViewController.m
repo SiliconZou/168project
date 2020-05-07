@@ -75,12 +75,12 @@
         }
         
         //套餐数
-        self.commonDataCount = stageModel.data1.count ;
+        self.commonDataCount = stageModel.data.count ;
     
         //添加 套餐list
-        [self.listArray   addObjectsFromArray:stageModel.data1];
+        [self.listArray   addObjectsFromArray:stageModel.data];
         //添加 课程list
-        [self.listArray  addObjectsFromArray:stageModel.data];
+        [self.listArray  addObjectsFromArray:stageModel.data1];
         
         [self.tableView  reloadData];
         
@@ -147,16 +147,6 @@
 {
     if (indexPath.row<self.commonDataCount)
     {
-        CoursePackageListTableViewCell * listTableViewCell = [tableView  dequeueReusableCellWithIdentifier:@"CoursePackageListTableViewCellID"];
-        if (!listTableViewCell) {
-            listTableViewCell =[[NSBundle   mainBundle] loadNibNamed:@"CoursePackageListTableViewCell" owner:self options:nil][0];
-            listTableViewCell.selectionStyle = UITableViewCellSelectionStyleNone ;
-        }
-        listTableViewCell.combinationModel = self.listArray[indexPath.row] ;
-        return listTableViewCell;
-        
-    } else
-    {
         CourseListTableViewCell * listTableViewCell = [tableView  dequeueReusableCellWithIdentifier:@"CourseListTableViewCellID"];
         if (!listTableViewCell) {
             listTableViewCell = [[CourseListTableViewCell  alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"CourseListTableViewCellID"];
@@ -164,6 +154,16 @@
         }
         listTableViewCell.courseModel = self.listArray[indexPath.row] ;
         listTableViewCell.currentViewController = self ;
+        return listTableViewCell;
+        
+    } else
+    {
+        CoursePackageListTableViewCell * listTableViewCell = [tableView  dequeueReusableCellWithIdentifier:@"CoursePackageListTableViewCellID"];
+        if (!listTableViewCell) {
+            listTableViewCell =[[NSBundle   mainBundle] loadNibNamed:@"CoursePackageListTableViewCell" owner:self options:nil][0];
+            listTableViewCell.selectionStyle = UITableViewCellSelectionStyleNone ;
+        }
+        listTableViewCell.combinationModel = self.listArray[indexPath.row] ;
         return listTableViewCell;
     }
 }
@@ -217,24 +217,22 @@
         detailViewController.hidesBottomBarWhenPushed = YES ;
         [self.navigationController pushViewController:detailViewController animated:YES];
         
-    } else {
-                
-        CourseStageCombinationModel * commonModel = self.listArray[indexPath.row] ;
-        
-        if (is_online==0) {
-            if ([commonModel.own integerValue]==0) {
-                
-                [URToastHelper  showErrorWithStatus:@"请激活课程"] ;
-                return ;
+        } else {
+                    
+            BaseCourseModel * commonModel = self.listArray[indexPath.row] ;
+            if (is_online==0) {
+                if ([commonModel.own integerValue]==0) {
+                    [URToastHelper  showErrorWithStatus:@"请激活课程"] ;
+
+                    return ;
+                }
             }
+            CourseDetailViewController * detailViewController = [[CourseDetailViewController  alloc] init];
+            detailViewController.stageID = [NSString  stringWithFormat:@"%@",commonModel.idStr?:@""] ;
+            detailViewController.courseID = self.courseID;
+            detailViewController.hidesBottomBarWhenPushed = YES ;
+            [self.navigationController pushViewController:detailViewController animated:YES];
         }
-        
-        CourseCombinationDetailViewController * detailViewController = [[CourseCombinationDetailViewController  alloc] init];
-        detailViewController.stageID = [NSString  stringWithFormat:@"%@",commonModel.idStr?:@""] ;
-        detailViewController.commonModel = commonModel ;
-        detailViewController.hidesBottomBarWhenPushed = YES ;
-        [self.navigationController pushViewController:detailViewController animated:YES];
-    }
 
 }
 
