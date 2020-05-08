@@ -77,16 +77,16 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiangyoujiantou" translatesAutoresizingMaskIntoConstraints="NO" id="Y7S-OX-C85">
-                            <rect key="frame" x="323" y="3" width="44" height="44"/>
+                            <rect key="frame" x="366" y="24.5" width="1" height="1"/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邀请可得100元奖励" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf2-yA-0w7">
-                            <rect key="frame" x="199" y="16.5" width="124" height="17"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邀请好友得奖励" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf2-yA-0w7">
+                            <rect key="frame" x="266" y="16.5" width="100" height="17"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <color key="textColor" red="0.98823529409999999" green="0.64705882349999999" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="invite" translatesAutoresizingMaskIntoConstraints="NO" id="z9T-vV-PNy">
-                            <rect key="frame" x="173" y="13" width="18" height="24"/>
+                            <rect key="frame" x="240" y="13" width="18" height="24"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="24" id="DMb-J1-HYX"/>
                                 <constraint firstAttribute="width" constant="18" id="c64-va-nQw"/>
@@ -309,7 +309,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="项目(1)" translatesAutoresizingMaskIntoConstraints="NO" id="s5e-zu-3ad">
-                    <rect key="frame" x="25.5" y="732.5" width="43" height="43"/>
+                    <rect key="frame" x="46.5" y="753.5" width="1" height="1"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="我的客服" translatesAutoresizingMaskIntoConstraints="NO" id="l34-8f-Aeh">
                     <rect key="frame" x="315" y="602.5" width="26" height="25"/>
@@ -319,7 +319,7 @@
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="购物车(2)" translatesAutoresizingMaskIntoConstraints="NO" id="8FI-q2-JNF">
-                    <rect key="frame" x="210.5" y="733" width="48" height="42"/>
+                    <rect key="frame" x="234" y="753.5" width="1" height="1"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="考试统计" translatesAutoresizingMaskIntoConstraints="NO" id="5Dy-oN-Sp4">
                     <rect key="frame" x="316.5" y="534" width="23" height="22"/>
@@ -343,7 +343,7 @@
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="历史记录" translatesAutoresizingMaskIntoConstraints="NO" id="q7J-fr-vtl">
-                    <rect key="frame" x="306" y="732" width="44" height="44"/>
+                    <rect key="frame" x="327.5" y="753.5" width="1" height="1"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="课程激活" translatesAutoresizingMaskIntoConstraints="NO" id="HKz-pz-wou">
                     <rect key="frame" x="129.5" y="604" width="22" height="22"/>
@@ -367,7 +367,7 @@
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="优惠券" translatesAutoresizingMaskIntoConstraints="NO" id="X51-0g-fJh">
-                    <rect key="frame" x="116" y="738" width="49" height="32"/>
+                    <rect key="frame" x="140" y="753.5" width="1" height="1"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="我的直播" translatesAutoresizingMaskIntoConstraints="NO" id="pSz-lt-uEg">
                     <rect key="frame" x="124.5" y="534.5" width="32" height="21"/>
@@ -927,7 +927,7 @@
         <image name="浏览记录" width="37" height="44"/>
         <image name="签到背景" width="109" height="55"/>
         <image name="考试统计" width="33" height="32"/>
-        <image name="设置" width="40" height="36"/>
+        <image name="设置" width="21" height="20"/>
         <image name="课程激活" width="32.5" height="32.5"/>
         <image name="购物车" width="47" height="44"/>
         <image name="购物车(2)" width="24" height="21"/>

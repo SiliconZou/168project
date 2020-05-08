@@ -11,6 +11,7 @@
 #import "FamousTeacherBroadcastModel.h"
 #import "LiveCourseRecommendViewController.h"
 #import "BuyCourseVC.h"
+#import "LiveTodayRecommendCell.h"
 static NSString * const FmousTeacherBroadcastCellIdentifier = @"FmousTeacherBroadcastCellIdentifier";
 
 @interface FmousTeacherBroadcastViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -18,7 +19,8 @@ static NSString * const FmousTeacherBroadcastCellIdentifier = @"FmousTeacherBroa
 @property (nonatomic,strong) CourseHomeMenuView *menu;
 @property (nonatomic,strong) UITableView *tableView;
 @property (nonatomic,strong) FmousTeacherBroadcastModel *broadcastModel;
-
+@property (nonatomic,strong) LiveHomeRecommedCourseModel *liveTodayModel;
+@property (nonatomic,retain) NSMutableArray <LiveHomeRecommedCourseModel *> *tableData;
 @end
 
 @implementation FmousTeacherBroadcastViewController
@@ -41,6 +43,14 @@ static NSString * const FmousTeacherBroadcastCellIdentifier = @"FmousTeacherBroa
     //    1专场 2 课程 3 预备
     [[URCommonApiManager  sharedInstance] getLiveMoreCourseListDataWithCourseId:self.courseID ?: @"" type:self.typeStr ?: @"" requestSuccessBlock:^(id response, NSDictionary *responseDict) {
         self.broadcastModel = response;
+        if (self.typeStr.integerValue == 2) {
+            NSArray *dataArr = responseDict[@"data"];
+            self.tableData = [[NSMutableArray alloc] init];
+            for (NSDictionary *dict in dataArr) {
+                LiveHomeRecommedCourseModel *model = [LiveHomeRecommedCourseModel yy_modelWithDictionary:dict];
+                [self.tableData addObject:model];
+            }
+        }
         [self.tableView reloadData];
     } requestFailureBlock:^(NSError *error, id response) {
         
@@ -67,29 +77,37 @@ static NSString * const FmousTeacherBroadcastCellIdentifier = @"FmousTeacherBroa
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.broadcastModel.data.count;
+    return self.typeStr.integerValue == 2 ? self.tableData.count : self.broadcastModel.data.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    FmousTeacherBroadcastCell *cell = [tableView dequeueReusableCellWithIdentifier:FmousTeacherBroadcastCellIdentifier];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone ;
-    
-    [[[cell.reservationButton  rac_signalForControlEvents:UIControlEventTouchUpInside] takeUntil:cell.rac_prepareForReuseSignal]subscribeNext:^(id x) {
-        // 预约
-        BuyCourseVC *vc = [[BuyCourseVC alloc] init];
-        vc.buyType = 1 ;
-        vc.dataModel = self.broadcastModel.data[indexPath.row] ;
-        vc.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:vc animated:YES];
-    }];
-    cell.model = self.broadcastModel.data[indexPath.row];
-    if (indexPath.row == 0) {
-        cell.line1.hidden = YES;
-    }else {
-        cell.line1.hidden = NO;
+    if (self.typeStr.integerValue == 2) {
+        LiveTodayRecommendCell *cell = [tableView dequeueReusableCellWithIdentifier:@"LiveTodayRecommendCell" forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone ;
+        cell.model = self.tableData[indexPath.row];
+        return cell;
+    } else {
+        FmousTeacherBroadcastCell *cell = [tableView dequeueReusableCellWithIdentifier:FmousTeacherBroadcastCellIdentifier];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone ;
+        
+        [[[cell.reservationButton  rac_signalForControlEvents:UIControlEventTouchUpInside] takeUntil:cell.rac_prepareForReuseSignal]subscribeNext:^(id x) {
+            // 预约
+            BuyCourseVC *vc = [[BuyCourseVC alloc] init];
+            vc.buyType = 1 ;
+            vc.dataModel = self.broadcastModel.data[indexPath.row] ;
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }];
+        cell.model = self.broadcastModel.data[indexPath.row];
+        if (indexPath.row == 0) {
+            cell.line1.hidden = YES;
+        }else {
+            cell.line1.hidden = NO;
+        }
+        return cell;
     }
-    return cell;
+    
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -127,7 +145,7 @@ static NSString * const FmousTeacherBroadcastCellIdentifier = @"FmousTeacherBroa
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _tableView.rowHeight = 156;
         [_tableView registerNib:[UINib nibWithNibName:@"FmousTeacherBroadcastCell" bundle:nil] forCellReuseIdentifier:FmousTeacherBroadcastCellIdentifier];
-
+        [_tableView registerClass:[LiveTodayRecommendCell class] forCellReuseIdentifier:@"LiveTodayRecommendCell"];
         if (@available(iOS 11.0, *)) {
             _tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
             _tableView.estimatedRowHeight = 0;

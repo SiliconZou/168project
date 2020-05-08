@@ -348,6 +348,7 @@
 		5C205F74241A0FE7009E5377 /* yinsizhengce.html in Resources */ = {isa = PBXBuildFile; fileRef = 5C205F72241A0FE2009E5377 /* yinsizhengce.html */; };
 		5C205F75241A0FE7009E5377 /* zhucexieyi.html in Resources */ = {isa = PBXBuildFile; fileRef = 5C205F73241A0FE7009E5377 /* zhucexieyi.html */; };
 		5C3DD83123F12C9B008B19C0 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3DD83023F12C9B008B19C0 /* CircleViewController.m */; };
+		5C46406B2465A73900C40446 /* LiveTodayRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46406A2465A73900C40446 /* LiveTodayRecommendCell.m */; };
 		66585B8A235C6E17000CEBAC /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66585B78235C6E16000CEBAC /* UMCommonLog.framework */; };
 		66585B8B235C6E17000CEBAC /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66585B7A235C6E16000CEBAC /* UMSocialSDKResources.bundle */; };
 		66585B8C235C6E17000CEBAC /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66585B7B235C6E16000CEBAC /* UShareUI.framework */; };
@@ -1040,6 +1041,8 @@
 		5C205F73241A0FE7009E5377 /* zhucexieyi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = zhucexieyi.html; sourceTree = "<group>"; };
 		5C3DD82F23F12C9B008B19C0 /* CircleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
 		5C3DD83023F12C9B008B19C0 /* CircleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
+		5C4640692465A73800C40446 /* LiveTodayRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveTodayRecommendCell.h; sourceTree = "<group>"; };
+		5C46406A2465A73900C40446 /* LiveTodayRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveTodayRecommendCell.m; sourceTree = "<group>"; };
 		66585B78235C6E16000CEBAC /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommonLog.framework; sourceTree = "<group>"; };
 		66585B7A235C6E16000CEBAC /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
 		66585B7B235C6E16000CEBAC /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
@@ -2150,6 +2153,8 @@
 		3D204054237967E4001F40EC /* 预告 */ = {
 			isa = PBXGroup;
 			children = (
+				5C4640692465A73800C40446 /* LiveTodayRecommendCell.h */,
+				5C46406A2465A73900C40446 /* LiveTodayRecommendCell.m */,
 				3D6D51462375684E007D65CA /* FmousTeacherBroadcastCell.h */,
 				3D6D51472375684E007D65CA /* FmousTeacherBroadcastCell.m */,
 				3D6D51482375684E007D65CA /* FmousTeacherBroadcastCell.xib */,
@@ -3307,6 +3312,7 @@
 				3D43D5BF2343353F008CEBE7 /* BRStringPickerView.m in Sources */,
 				05314CCF2320F89E00107CD8 /* URPhoneInformation.m in Sources */,
 				3DA413332334828700B8677D /* PersonalCenterCell.m in Sources */,
+				5C46406B2465A73900C40446 /* LiveTodayRecommendCell.m in Sources */,
 				3DDC9A73233915A400B8ABCD /* TrainingListModel.m in Sources */,
 				3D36E6F1237810A60040F9AB /* LiveSectionCourseTitleTableViewCell.m in Sources */,
 				05314CFD2320F89E00107CD8 /* NSString+AESCrypt.m in Sources */,
